@@ -1,10 +1,8 @@
-# mcssstarter
-Material CSS Starter Pack
 # **mcssstarter** - Material CSS Starter Pack *(For Material CSS Version 0.100.2 - Beta)*
 
 **Version:** 1.0.0
 ## Overview:
-This *Starter Pack* is a starting point for building a Web front-end with the **Material CSS** UI framework (https://getbootstrap.com/). It implements an automated *Gulp* development workflow (https://gulpjs.com/).
+This *Starter Pack* is a starting point for building a Web front-end with the **Material CSS** UI framework (http://materializecss.com/). It implements an automated *Gulp* development workflow (https://gulpjs.com/).
 
 This *Starter Pack* is based on the *Bootstrap 4 Starter Pack*, published by **Brad Traversy** (*Traversy Media*) (https://github.com/bradtraversy/bs4starter). Brad has produced a comprehensive Material CSS course, available online at **Udemy** (*Thumbs Up!*) (https://www.udemy.com/materialize-css-from-scratch-with-5-projects/learn/v4/content).
 
