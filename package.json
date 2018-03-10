@@ -1,0 +1,30 @@
+{
+  "name": "mcssstarter",
+  "version": "1.0.0",
+  "description": "Material CSS Starter Workflow",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edbradley/mcssstarter.git"
+  },
+  "author": "Edward Bradley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edbradley/mcssstarter/issues"
+  },
+  "homepage": "https://github.com/edbradley/mcssstarter#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "materialize-css": "^0.100.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
