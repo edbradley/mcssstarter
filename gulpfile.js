@@ -48,11 +48,14 @@ gulp.task('serve', ['sass'], function () {
 });
 
 /**
- * Copy fonts (Font-Awesome) folder from NPM repository to
+ * Copy fonts (Font-Awesome & Materialize CSS) folders from NPM repository to
  * project folder (src/fonts)
  */
 gulp.task('fonts', function () {
-    return gulp.src('node_modules/font-awesome/fonts/*')
+    return gulp.src([
+        'node_modules/font-awesome/fonts/*',
+        'node_modules/materialize-css/dist/fonts/**/*'
+    ])
         .pipe(gulp.dest("src/fonts"));
 });
 
