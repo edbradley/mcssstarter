@@ -1,3 +1,6 @@
+/**
+ * Custom Javascript goes here.
+ */
 (function () {
-    console.log('Material CSS Starter Kit');
+    console.log('Materialize CSS Starter Pack');
 })()
