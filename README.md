@@ -1,6 +1,9 @@
 # **mcssstarter** - Materialize CSS Starter Pack *(For Materialize CSS Version 0.100.2 - Beta)*
 
 **Version:** 1.0.0
+
+![Starter Page](mcssstarter.png)
+
 ## Overview:
 This *Starter Pack* is a starting point for building a Web front-end with the **Materialize CSS** UI framework (http://materializecss.com/). It implements an automated *Gulp* development workflow (https://gulpjs.com/).
 
