@@ -53,20 +53,11 @@ gulp.task('serve', ['sass'], function () {
  */
 gulp.task('fonts', function () {
     return gulp.src([
-        'node_modules/font-awesome/fonts/*',
         'node_modules/materialize-css/dist/fonts/**/*',
         'node_modules/material-design-icons/iconfont/*'
     ])
         .pipe(gulp.dest("src/fonts"));
 });
 
-// Copy font CSS (Font-Awesome) from NPM repository to project folder (src/css)
-gulp.task('fa', function () {
-    return gulp.src([
-        'node_modules/font-awesome/css/font-awesome.min.css'      
-    ])
-        .pipe(gulp.dest("src/css"));
-});
-
 // DEFAULT TASK ('gulp')
-gulp.task('default', ['js', 'serve', 'fa', 'fonts']);
+gulp.task('default', ['js', 'serve', 'fonts']);
