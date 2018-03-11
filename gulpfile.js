@@ -63,8 +63,7 @@ gulp.task('fonts', function () {
 // Copy font CSS (Font-Awesome) from NPM repository to project folder (src/css)
 gulp.task('fa', function () {
     return gulp.src([
-        'node_modules/font-awesome/css/font-awesome.min.css',
-        'node_modules/material-design-icons/iconfont/material-icons.css'
+        'node_modules/font-awesome/css/font-awesome.min.css'      
     ])
         .pipe(gulp.dest("src/css"));
 });
